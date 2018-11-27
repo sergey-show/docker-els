@@ -1,4 +1,4 @@
-FROM sergeyshow/oracle-java8
+FROM openjdk
 
 MAINTAINER Sergey Chugay <sergey@chugay.ru>
 
