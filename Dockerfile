@@ -4,7 +4,8 @@ MAINTAINER Sergey Chugay <sergey@chugay.ru>
 
 ARG els_ver=6.3.1
 
-RUN yum update -y
+RUN yum update -y \
+    && useradd -d els
  
 USER els
 
